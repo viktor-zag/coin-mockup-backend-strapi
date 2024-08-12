@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "saved_datas",
+  "info": {
+    "singularName": "saved-data",
+    "pluralName": "saved-datas",
+    "displayName": "SavedData",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "uuid": {
+      "type": "uid"
+    },
+    "content": {
+      "type": "text"
+    },
+    "name": {
+      "type": "string"
+    },
+    "savedDate": {
+      "type": "datetime"
+    },
+    "userName": {
+      "type": "string"
+    }
+  }
+}

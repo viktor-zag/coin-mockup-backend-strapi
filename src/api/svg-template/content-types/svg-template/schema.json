@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "svg_templates",
+  "info": {
+    "singularName": "svg-template",
+    "pluralName": "svg-templates",
+    "displayName": "SvgTemplate"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "text"
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}
